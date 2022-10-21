@@ -1,6 +1,6 @@
 Option Explicit
 
-' A VBA Script tested on Inventor 2022 to convert an assembly to a part with no link to its assembly
+' A VBA-script tested on Inventor 2022 to convert an assembly to a part with no link to its assembly
 '
 ' Contact: sebiscodes@gmail.com
 ' My Github: My Github: https://github.com/SebisCodes
