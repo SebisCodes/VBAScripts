@@ -3,7 +3,7 @@ Option Explicit
 ' A VBA-script tested on Inventor 2022 to convert an assembly to a part with no link to its assembly
 '
 ' Contact: sebiscodes@gmail.com
-' My Github: My Github: https://github.com/SebisCodes
+' My Github: https://github.com/SebisCodes
 
 Sub assemblyToPart()
 
