@@ -3,7 +3,7 @@ Option Explicit
 ' A VBA-script tested on Inventor 2022 to update the titleblock in a drawing
 '
 ' Contact: sebiscodes@gmail.com
-' My Github: My Github: https://github.com/SebisCodes
+' My Github: https://github.com/SebisCodes
 
 Sub updateTitleblockPWT()
     Dim oDoc As DrawingDocument
