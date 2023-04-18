@@ -5,7 +5,7 @@
 '  Application.EnableEvents = True
 'End Sub
 
-'Required References: mscorlib.dll
+'Required References: mscorlib.dll, .NET Framework 3.5
 
 ' A VBA-script to direct edit pivot table values without changing to the source table
 '
