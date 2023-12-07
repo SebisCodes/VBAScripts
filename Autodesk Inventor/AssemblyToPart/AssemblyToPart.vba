@@ -85,7 +85,9 @@ Public Sub createFolder(ByVal path As String)
     newPath = ""
     loopStarted = False
     splittedPath = Split(path, "\")
-    
+
+    Dim s As Variant
+
     For Each s In splittedPath
         If s <> "" Then
             If Not loopStarted Then
