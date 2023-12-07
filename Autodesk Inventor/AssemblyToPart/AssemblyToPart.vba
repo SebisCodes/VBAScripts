@@ -100,3 +100,12 @@ Public Sub createFolder(ByVal path As String)
         End If
     Next
 End Sub
+
+
+Public Sub deleteFile(ByVal path As String)
+    Dim FSO As FileSystemObject
+    Set FSO = CreateObject("Scripting.FileSystemObject")
+    If fileExists(path) Then
+        FSO.deleteFile path
+    End If
+End Sub
