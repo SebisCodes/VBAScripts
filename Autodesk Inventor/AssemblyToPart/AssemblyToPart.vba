@@ -111,3 +111,10 @@ Public Sub deleteFile(ByVal path As String)
         FSO.deleteFile path
     End If
 End Sub
+
+
+Public Function fileExists(ByVal path As String) As Boolean
+    Dim FSO As FileSystemObject
+    Set FSO = CreateObject("Scripting.FileSystemObject")
+    fileExists = FSO.fileExists(path)
+End Function
